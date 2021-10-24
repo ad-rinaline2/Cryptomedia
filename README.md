@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Cryptomedia: A decentralized social media app build on Ethereum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image of Project Ideation](./Ideation_img.png)
 
-## Available Scripts
+## App Description:
 
-In the project directory, you can run:
+A social media app through which one can upload contents and can get tipped by cryptocurrency(Ethereum) for their contents by other users.
 
-### `npm start`
+### Front-End Stack:
 
-Run the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The client-side server is developed using React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Compiling Smart Contracts:
 
-### `npm test`
+Truffle Suite Framework: It compiles the smart contracts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Mining and Testing
 
-### `npm run build`
+Ganache: It is a personal Ethereum Blockchain which is used to run tests, execute commands and inspect state while controlling how the chain operates.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Crypto Wallet:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Metamask: It is the cryptocurrency wallet that allow the transactions of the Ethereum cryptocurrency, interacting directly with the blockchain (in case of my project it is the Ganache blockchain).   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## IPFS (InterPlanetary File System):
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The decentralized way of storing data with a peer-to-peer network of user-operators.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Data are stored using contract based IPFS. Here, instead of storing all data on-chain, the hash where the data is located on a chain is stored.
