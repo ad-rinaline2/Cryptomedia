@@ -1,6 +1,6 @@
 # Cryptomedia: A decentralized social media app build on Ethereum
 
-![Image of Project Ideation](./Ideation_img.png)
+![Image of Project Ideation](./Ideation_diagram.png)
 
 ## App Description:
 
