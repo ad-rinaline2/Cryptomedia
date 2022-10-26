@@ -22,22 +22,22 @@ export const Users = [
   {
     id:5,
     profilePicture: "assets/person/5.jpeg",
-    username: "Mr. Dry_Runner",
+    username: "Sundar Pichai",
   },
   {
     id:6,
     profilePicture: "assets/person/6.jpeg",
-    username: "Mr. Dry_Runner",
+    username: "Mr. Whooseabout",
   },
   {
     id:7,
     profilePicture: "assets/person/7.jpeg",
-    username: "Mr. Dry_Runner",
+    username: "TechRadar",
   },
   {
     id:8,
     profilePicture: "assets/person/8.jpeg",
-    username: "Mr. Dry_Runner",
+    username: "GeekyTech",
   },
   {
     id:9,

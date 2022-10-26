@@ -1,4 +1,4 @@
 pragma solidity ^0.5.0;
-contract cryptomedia {
+contract Cryptomedia {
     string public name = "cryptomedia";
 }
